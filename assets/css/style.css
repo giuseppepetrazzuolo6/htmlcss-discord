@@ -1,0 +1,162 @@
+/*utilities*/
+:root{
+    --ds-banner-color: #3161e0;
+    --ds-darker-color: #23272a;
+    --ds-download-color: #8ea1e1;
+}
+.d-flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container
+{
+    margin: auto;
+    width: 70%;
+    min-width: 1200px;
+}
+.text-align{
+    text-align: center;
+}
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    background-color: var(--ds-banner-color)
+    
+}
+footer{
+    height: 400px;
+    background-color: var(--ds-darker-color);
+}
+h1{
+    font-size: 40px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+h2{
+    color: var(--ds-darker-color);
+    font-size: 30px;
+    
+}
+.lighter-text{
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    font-size: 25px;
+}
+.darker-text{
+    color: var(--ds-darker-color);
+    font-size: 20px;
+}
+#jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 500px;
+    text-align: center;      
+}
+hr{
+    color: white;
+}
+/*debug*/
+.debug *
+{
+    border: 1px dashed;
+}
+.debug header
+{
+    background-color: blue;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.debug footer
+{
+    background-color: greenyellow;
+    height: 200px;
+}
+.debug .left,
+.debug .right
+{
+    background-color: pink;
+    height: 400px;
+    
+}
+/*button*/
+.acces-btn
+{
+    border-radius: 50px;
+    height: 45px;
+    width: 80px;
+    border-style: hidden;
+    margin: 10px;
+
+}
+.btn
+{
+    padding: 5px;
+    margin-bottom: 60px;
+    border-style: hidden;
+}
+.btn-lighter
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+}
+.btn-darker
+{
+    width: 300px;
+    height: 50px;
+    background-color: var(--ds-darker-color);
+    color: white;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.end-button
+{
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: var(--ds-download-color);
+    color: white;
+}
+/*banner*/
+.logo
+{
+    width: 100px;
+}
+.menu > a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 8px;
+}
+/*box*/
+.w-30
+{
+    width: 30%; 
+    padding: 15px;
+}
+.w-70
+{
+    width: 70%;
+    padding: 20px; 
+    text-align: center;
+}
+.link-box{
+    width:70px;
+}
+.info > .container > .link-box > nav > a{
+    color: white;
+    text-decoration: none;
+}
+.info{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
