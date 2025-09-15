@@ -16,7 +16,7 @@
     width: 70%;
     
 }
-#wave > .container
+#technology > .container
 {
     text-align: center;
 }
@@ -48,6 +48,7 @@ h1{
 h2{
     color: var(--ds-darker-color);
     font-size: 30px;
+    padding: 10px;
     
 }
 .lighter-text{
@@ -76,6 +77,15 @@ strong{
     display: block;
     margin-bottom: 15px;
 }
+.text{
+    padding: 10px;
+}
+.downloading-txt{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
 /*debug*/
 .debug *
 {
