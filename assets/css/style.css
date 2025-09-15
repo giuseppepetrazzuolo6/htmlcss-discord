@@ -64,6 +64,9 @@ h2{
 hr{
     color: white;
 }
+strong{
+    color: var(--ds-download-color);
+}
 /*debug*/
 .debug *
 {
@@ -149,14 +152,32 @@ hr{
     padding: 20px; 
     text-align: center;
 }
+/*footer*/
+.socialnetwork{
+    width: 200px;
+}
 .link-box{
     width:70px;
 }
 .info > .container > .link-box > nav > a{
     color: white;
     text-decoration: none;
+    margin-bottom: 2px;
 }
 .info{
     padding-top: 50px;
     padding-bottom: 10px;
+}
+.info > .d-flex{
+    align-items: flex-start;
+}
+.d-flex > .socialnetwork > strong{
+    font-size: 25px;
+}
+.socialnetwork > div > img{
+    width: 20px;
+    margin-top: 20px;
+}
+.socialnetwork > div > span{
+    color: white;
 }
