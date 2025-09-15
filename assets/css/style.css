@@ -14,9 +14,10 @@
 {
     margin: auto;
     width: 70%;
-    min-width: 1200px;
+    
 }
-.text-align{
+#wave > .container
+{
     text-align: center;
 }
 /*general*/
@@ -25,13 +26,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body 
+{
+    font-family: 'Roboto', sans-serif;
+}
 header
 {
     background-color: var(--ds-banner-color)
     
 }
 footer{
-    height: 400px;
+    height: 410px;
     background-color: var(--ds-darker-color);
 }
 h1{
@@ -63,9 +68,13 @@ h2{
 }
 hr{
     color: white;
+    margin: auto;
+    width: 70%;
 }
 strong{
     color: var(--ds-download-color);
+    display: block;
+    margin-bottom: 15px;
 }
 /*debug*/
 .debug *
@@ -121,7 +130,7 @@ strong{
     border-radius: 50px;
     margin-left: 10px;
 }
-.end-button
+.light-button
 {
     width: 200px;
     height: 60px;
@@ -129,11 +138,17 @@ strong{
     background-color: var(--ds-download-color);
     color: white;
 }
-/*banner*/
-.logo
-{
+.register-button{
     width: 100px;
+    height: 40px;
+    border-style: hidden;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 50px;
+    background-color: var(--ds-download-color);
+    color: white;
 }
+/*banner*/
 .menu > a
 {
     color: white;
@@ -157,12 +172,11 @@ strong{
     width: 200px;
 }
 .link-box{
-    width:70px;
+    width:80px;
 }
 .info > .container > .link-box > nav > a{
     color: white;
     text-decoration: none;
-    margin-bottom: 2px;
 }
 .info{
     padding-top: 50px;
@@ -180,4 +194,7 @@ strong{
 }
 .socialnetwork > div > span{
     color: white;
+}
+.logo{
+    margin-top: 10px;
 }
